@@ -20,8 +20,8 @@ npm run dev
 To package/run the app for production, run:
 
 ```
-npm build
-npm start
+npm run build
+npm run start
 ```
 
 This website is a typical Next.JS application, thus it can easily be deployed to [Vercel](https://vercel.com).
