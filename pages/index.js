@@ -25,8 +25,8 @@ export default function Home({ allPostsData }) {
 
         <li><Link href="/posts">Writing</Link></li>
         <li><a href="https://github.com/mehdignu" target="_blank">GitHub</a></li>
-        <li><a href="https://twitter.com/simplyianm">Twitter</a></li>
-        <li><a href="https://twitter.com/simplyianm">Contact</a></li>
+        <li><a href="https://www.linkedin.com/in/mehdignu/" target="_blank">Linkedin</a></li>
+        <li><Link href="/contact">Contact</Link></li>
       
       </ul>
 

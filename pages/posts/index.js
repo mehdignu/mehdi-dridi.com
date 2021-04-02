@@ -1,11 +1,11 @@
 
 import Head from 'next/head'
-import Layout, { siteTitle } from '../../components/layout'
+import Layout from '../../components/layout'
 import utilStyles from '../../styles/utils.module.css'
 import { getSortedPostsData } from '../../lib/posts'
 import Link from 'next/link'
 import Date from '../../components/date'
-
+const siteTitle = 'Writing'
 export default function Posts({ allPostsData }) {
   return (
     <Layout posts>
@@ -15,9 +15,8 @@ export default function Posts({ allPostsData }) {
    
     
     <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
-      
 
-      <h2 className={utilStyles.writings}>Writing</h2>
+      <h2>Writing</h2>
       
       <ul className={utilStyles.list}>
         {allPostsData.map(({ id, date, title }) => (
