@@ -1,1 +1,35 @@
-This is a starter template for [Learn Next.js](https://nextjs.org/learn).
+# mehdi-dridi.com
+
+My personal website.
+
+Stack:
+
+- NextJS/React
+- css
+- MDX
+
+## Developing
+
+Use `nix-direnv` to source the `.envrc` in this project. Then do:
+
+```
+npm
+npm run dev
+```
+
+To package/run the app for production, run:
+
+```
+npm build
+npm start
+```
+
+This website is a typical Next.JS application, thus it can easily be deployed to [Vercel](https://vercel.com).
+
+### Deploying
+
+Run `update-static-assets` to sync the static assets directory with AWS S3.
+
+## License
+
+GPL3
