@@ -1,0 +1,23 @@
+.line{
+  background-color: #3873a3;
+  height: 10px;
+  width: 100%;
+}
+
+.container {
+  width: 720px;
+  max-width: 100%;
+  padding: 0 1rem;
+  margin: 3rem auto 6rem;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.backToHome {
+  margin: 3rem 0 0;
+}
+
