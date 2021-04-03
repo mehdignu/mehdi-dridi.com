@@ -15,8 +15,7 @@ export default function Layout({ children, home }) {
     <div className={styles.container}>
       <Head>
         <link rel="icon" href="/favicon.ico" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" />
-        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;1,600&display=swap" rel="stylesheet" />
+  
         <meta
           name="description"
           content="Mehdi Dridi. I'm a software engineer obsessed with code quality, software architecture, and building experiences."
@@ -34,21 +33,9 @@ export default function Layout({ children, home }) {
 
       <header className={styles.header}>
         {home ? (
-          <>
-            <Image
-              priority
-              src="/images/profile.jpeg"
-              className={utilStyles.borderCircle}
-              height={144}
-              width={144}
-              alt={name}
-            />
-            <h1 className={utilStyles.heading2Xl}>{name}</h1>
-          </>
+          <h1 className={utilStyles.heading2Xl}>{name}</h1>
         ) : (
-          <>
-           
-          </>
+          <></>
         )}
       </header>
       <main>{children}</main>

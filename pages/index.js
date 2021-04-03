@@ -16,7 +16,7 @@ export default function Home({ allPostsData }) {
 
         <p>I strive for clean, readable, performance optimized code.</p>
 
-        <p>You can find my resume <a href="files/resume.pdf" target="_blank">here</a>. ■</p>
+        <p>You can find my resume <a href="/resume" target="_blank">here</a>. ■</p>
       </section>
      
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
